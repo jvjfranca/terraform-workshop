@@ -14,7 +14,7 @@ resource "aws_instance" "webserver" {
 }
 
 resource "aws_security_group" "webserver" {
-  name = "sg-webserver"
+  name = "sg_webserver"
   ingress {
     from_port   = 80
     to_port     = 80
